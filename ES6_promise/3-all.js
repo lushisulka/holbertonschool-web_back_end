@@ -13,4 +13,4 @@ function handleProfileSignup() {
 
 }
 
-export default handleProfileSignup;
+export default handleProfileSignup();
