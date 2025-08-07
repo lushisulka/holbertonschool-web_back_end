@@ -15,7 +15,7 @@ export default class HolbertonCourse {
     if (Array.isArray(students)) {
       this._students = students;
     } else {
-      throw new Error('Students must be a array');
+      throw new Error('Students must be an array of strings');
     }
   }
 
@@ -51,7 +51,7 @@ export default class HolbertonCourse {
     if (Array.isArray(students)) {
       this._students = students;
     } else {
-      throw new Error('Students must be a array');
+      throw new Error('Students must be an array of strings');
     }
   }
 }
